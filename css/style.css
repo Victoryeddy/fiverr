@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* nav section */
+.navbar-brand,
+.offcanvas-title {
+  font-size: 2.5rem !important;
+  font-weight: 900 !important;
+  color: #404145 !important;
+}
+
+.nav-link {
+  font-size: 1.125rem !important;
+}
+
+.nav-item .active {
+  color: rgb(57, 50, 159) !important;
+}
+
+.link-hover:hover {
+  color: #61c075 !important;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.row-scroller {
+  position: relative;
+}
+
+.row-scroller .row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  overflow: auto;
+  white-space: nowrap;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.border-nav {
+  border: 1px solid gray !important;
+}
+
+/* button section */
+.btn-go {
+  color: #fff !important;
+  background-color: #61c075 !important;
+  padding: 0.5rem 1.5rem !important;
+  border-color: #61c075 !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-go:hover {
+  color: #fff !important;
+  background-color: #39b755 !important;
+  padding: 0.5rem 1.5rem !important;
+  border-color: #39b755 !important;
+}
+
+.btn-slide {
+  color: #fff !important;
+  background-color: #61c075 !important;
+  padding: 1rem 1.5rem !important;
+  border-color: #61c075 !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-slide:hover {
+  color: #fff !important;
+  background-color: #44b75d !important;
+  padding: 1rem 1.5rem !important;
+  border-color: #44b75d !important;
+}
+
+.btn-outline-go {
+  color: #61c075 !important;
+  border-color: #61c075 !important;
+  background-color: transparent !important;
+  padding: 0.2rem 1.5rem !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-outline-go:hover {
+  color: #fff !important;
+  background-color: #61c075 !important;
+  border-color: #61c075 !important;
+}
+
+.btn-popular {
+  color: #fff !important;
+  background-color: transparent !important;
+  padding: 0.3rem 0.5rem !important;
+  border-color: #fff !important;
+  transition: all 0.3s ease-in !important;
+  font-size: 0.875rem !important;
+}
+
+.btn-popular:hover {
+  color: #404145 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-explore {
+  color: #fff !important;
+  border-color: #61c075 !important;
+  background-color: #44b75d !important;
+  padding: 0.7rem 2rem !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-explore:hover {
+  color: #fff !important;
+  border-color: #61c075 !important;
+  background-color: #44b75dce !important;
+  padding: 0.7rem 2rem !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-logo-maker {
+  background-color: #fff !important;
+  color: #446ee7 !important;
+  padding: 0.7rem 2rem !important;
+  border-color: #fff !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-logo-maker:hover {
+  background-color: rgba(255, 255, 255, 0.583) !important;
+  color: #446ee7 !important;
+  border-color: #fff !important;
+}
+
+.btn-sign-up {
+  background-color: #61c075 !important;
+  color: #fff !important;
+  padding: 0.7rem 2rem !important;
+  border-color: #61c075 !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btn-sign-up:hover {
+  background-color: #61c076cc !important;
+  color: #fff !important;
+  border-color: #61c075 !important;
+}
+
+/* font, text section */
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+
+.text-gray {
+  color: #53545c !important;
+}
+
+.text-light-gray {
+  color: #a0a0a6 !important;
+}
+
+.text-gold {
+  color: #f6bd5a !important;
+}
+
+.text-good {
+  color: #5ec3aa !important;
+}
+
+.text-listing {
+  color: #404145 !important;
+}
+
+.text-project-link {
+  color: #446ee7 !important;
+}
+
+/*background color*/
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-freelance {
+  background-color: #f1fdf7 !important;
+}
+
+.bg-business {
+  background-color: #0f114d !important;
+}
+
+.bg-new {
+  background-color: #594dfc !important;
+}
+
+.bg-logo-maker {
+  background-color: #446ee7 !important;
+}
+
+.bg-light-gray {
+  background-color: #f5f5f5;
+}
+
+/* Other Utilities */
+
+.full {
+  width: 100%;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.line {
+  border-bottom: 3px solid #c5c6c9;
+  text-align: center;
+  width: 50px;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.line:hover {
+  width: 80px;
+  border-bottom: 3px solid #c5c6c9;
+  text-align: center;
+  border-color: #39b755;
+  left: 30px;
+}
+
+.shift-right {
+  transition: all 0.5s ease-in-out;
+}
+
+.shift-right:hover {
+  margin-right: 0.7rem;
+}
+
+.name-link:hover {
+  text-decoration: underline !important;
+}
+
+.underline:hover {
+  text-decoration: underline !important;
+}
+
+.light {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.light:hover {
+  opacity: 0.8;
+}
+
+.italics {
+  font-family: "Courgette", sans-serif;
+  font-weight: 400 !important;
+}
+
+.susan {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.heading {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700 !important;
+  font-size: 3.4rem !important;
+}
+
+.sub-heading {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600 !important;
+  color: #404145 !important;
+  font-size: 2.5rem !important;
+}
+
+.content-box {
+  padding: 1.5em 0;
+}
+
+.viewed-content-box {
+  padding: 5.5em 0;
+}
+
+/* Footer section */
+.border-footer {
+  border-color: #a0a0a6 !important;
+}
+
+/* input,textarea,button,select section */
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+button:active,
+button:focus,
+select:active,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  top: 25%;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 35rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 36em) {
+  .heading {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700 !important;
+    font-size: 2.5rem !important;
+  }
+
+  .sub-heading {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600 !important;
+    color: #404145 !important;
+    font-size: 2rem !important;
+  }
+}
